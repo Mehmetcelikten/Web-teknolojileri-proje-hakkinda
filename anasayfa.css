@@ -1,0 +1,90 @@
+
+body{background-color: rgb(212, 176, 131);}
+h1{
+    text-align: center;
+    background-color: black;
+color: yellow;
+border: 2px;
+border-radius: 6px;
+}
+
+h2{  text-align: center;
+    text-decoration: underline;
+    color: rgb(24, 15, 58);
+    text-justify: newspaper;
+}
+h3{
+    text-align: center;
+
+    color:rgb(53, 31, 133) ;
+}
+h4{ text-align: center;
+    color: rgb(91, 53, 228);
+}
+p{text-indent: 50px;
+    color:rgb(56, 50, 33);
+   
+    border-radius: 3px;
+    text-decoration: dashed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+a{text-align: center
+    ;}
+    :checked{
+        display: none;
+    }
+
+    div{
+        text-align: center;
+    }
+    .slider{
+        position: relative;
+        width: 612px;
+        height: 408x;
+        border:1px solid #ccc;  
+        margin: auto;
+    
+    
+    }
+    
+    .slider-content{
+        position: absolute;
+        width: 400%;
+        left: 0;
+        animation: slide 15s infinite;
+    }
+    
+    .slider-item{
+        width: 25%;
+        float: left;
+    }
+    
+    
+    @keyframes slide{
+    
+        0%{
+            transform: translateX(0px) ;
+        }
+        10%{
+            transform: translateX(-612) ;
+        }
+        20%{
+            transform: translateX(-612px) ;
+        }
+        30%{
+            transform: translateX(-1224px) ;
+        }
+        40%{
+            transform: translateX(-1224px) ;
+        }
+        50%{
+            transform: translateX(-1836px) ;
+        }
+        60%{
+            transform: translateX(-1836px) ;
+        }
+        70%{
+            transform: translateX(0px) ;
+        }
+    }

@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    background-color: black;
+color: yellow;
+border: 2px;
+border-radius: 6px;
+}
+
+form{
+    text-align: center;
+}
+body{
+    background-color: rgb(212, 176, 131);
+}
+div{text-align: center;
+
+}
+:checked{
+    display: none;
+}
